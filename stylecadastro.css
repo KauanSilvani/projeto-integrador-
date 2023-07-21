@@ -2,6 +2,18 @@
 body{
     background-color:  #00995d;
 }
+#nome{
+    width: 90%;
+}
+#password{
+    width: 90%;
+}
+#email{
+    width: 90%;
+}
+#datanascimento{
+    width: 90%;
+}
 .container_form {
 
 
@@ -14,6 +26,7 @@ body{
     border-radius:3px; 
     padding:1em;
     border-radius: 20px;
+    margin-top: 70px;
 
 }
 
