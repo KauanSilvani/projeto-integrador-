@@ -17,7 +17,7 @@ background-color: #00995d;
 
 body { 
 
-font-family:"Poppins", sans-serif; height:100vh;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; height:100vh;
 }
 
 h1 {
@@ -35,13 +35,16 @@ float: left;
 #box-titulo{
   font-size: 34px;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Arial, sans-serif,;
 }
 #box-h1{
   font-size: 24px;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Arial, sans-serif,;
 }
 h2{
   font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue","Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Arial, sans-serif,;
 }
 
 
