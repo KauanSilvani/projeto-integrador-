@@ -1,0 +1,36 @@
+*{  
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+  
+}
+
+html { 
+  background-color: #404040;
+ }
+
+body { 
+  font-family:"Poppins", sans-serif; height:100vh;
+ }
+
+h1 {
+
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #0d0d0d;
+  border-bottom: 1px solid #f6f6f6;
+  padding: 15px 15px;
+  width: 100%;
+  float: left;
+}
+.box-obrigado { 
+  
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background: #cde3bb;
+   
+  }
