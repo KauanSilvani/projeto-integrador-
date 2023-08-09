@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* background-image: url(img/hospital.jpeg);
+  background-size: cover; */
+  body{
+    background-color: #00995d;
+}
+/* .principal{
+  width: 100%;
+  height: 100%;
+  background-color:  #070a07;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  
+} */
+
+.cabecario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+
+    }
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  font-weight: bold;
+  
+  border-radius: 15px;
+}
+
+img{
+    height: 6vw;  
+}
+fieldset {
+    padding: 1,5vw; 
+    margin-bottom: 1,5vw;
+  }
+  
+  legend {
+    font-weight: bold; 
+    margin-bottom: 1vw; 
+  }
+
+  .teste{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ 
+
+  .formulario{
+    border: 1px solid black;
+    width: 65vw;
+    height: 85vh;
+    background-color: #cde3bb;
+    padding: 2vw;
+    display: flex;   
+    list-style: none;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2vh;
+    transform: translateY(-700px);
+    transition: opacity 1s, transform 1s;
+    border-radius: 15px;
+  }
+  label {
+    display: block; 
+    margin-bottom: 1.25vh; 
+  }
+
+  .botao_formulario{
+    
+    display: flex;
+    float: left;
+    background-color: #00995d;
+    border: black;
+    color: #ece3d9;
+    cursor: pointer;
+    padding: 1em 6vw;
+    text-align: center;
+    font-size: 1em;
+    -webkit-border-radius: 4px ;
+    border-radius: 4px;
+    transition: 0,3s;
+  }
+
+  .button{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+  }  
+  #telefone{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 15vw;
+    text-align: center;
+  }
+  #Nome{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 15vw;
+    text-align: center;
+  }
+  #Endereco{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 15vw;
+    text-align: center;
+  }
+  #Nascimento{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 17vw;
+    text-align: center;
+    width: 30vh;
+  }
+  #Estadocivil{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 31vh;
+  }
+  .Estadocivil{
+    margin-top: -1vw;
+  }
+  #CPF{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 15vw;
+    text-align: center;
+  }
+  #qualalergia{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 15vw;
+    text-align: center;
+  }
+  #nomecontato{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 15vw;
+    text-align: center;
+  }
+  #telefonecontato{
+    border-radius: 15px;
+    height: 2.5vw;
+    width: 15vw;
+    text-align: center;
+    
+  }
+  .internado{
+    margin-top: 4vh;
+    margin-right: 2vw;
+  }  
+
+  .titulo{
+    height: 2.5vw;
+  }
+  .Sexo{
+    margin-top: 2vh;
+  }
+   .linha1{
+    height: 20vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .linha2{
+    height: 20vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .linha3{
+    height: 20vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media  (max-width: 1240px) and (min-width: 620px){
+    div{
+      #Nome{
+        width: 14vw;
+      }
+      #Nascimento{
+        width: 14vw;
+      }
+      #CPF{
+        width: 14vw;
+      }
+      #Endereco{
+        width: 14vw;
+      }
+      #Estadocivil{
+        width: 14vw;
+      }
+      #telefone{
+        width: 14vw;
+      }
+      #qualalergia{
+        width: 14vw;
+      }
+      #nomecontato{
+        width: 14vw;
+      }
+      #telefonecontato{
+        width: 14vw;
+      }
+    }
+  }
+  @media (max-width: 620px){
+    .formulario{
+      border: 1px solid black;
+      width: 65vw;
+      height: 145vh;
+      background-color: #cde3bb;
+      margin-bottom: 20px;
+      display: table;
+    }
+    .cabecario{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .img{
+      width:  45%;
+      height: 100%;
+    }
+    .linha1{
+      height: 20vh;
+      width: 100%; 
+      
+      display: table;
+    }
+    .linha2{
+      height: 20vh;
+      width: 100%;
+  
+      display: table;
+    }
+    .linha3{
+      height: 20vh;
+      width: 100%;
+  
+      display: table
+    }
+    div{
+      #Nome{
+        width: 98%;
+        height: 100%;
+        float:left;     
+        margin-bottom: 40px;
+      }
+      .Sexo{
+        margin-bottom: 40px;
+      }
+      #Nascimento{
+        width: 98%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+      }
+      #CPF{
+        width: 98%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+      }
+      #Endereco{
+        width: 98%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+      }
+      #Estadocivil{
+        width: 100%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+        height: 17px;       
+      }
+      #telefone{
+        width: 98%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+      }
+      #qualalergia{
+        width: 98%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+      }
+      #nomecontato{
+        width: 98%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+      }
+      #telefonecontato{
+        width: 98%;
+        height: 100%;
+
+        float:left;
+        margin-bottom: 40px;
+      }
+      .alergia{
+        margin-bottom: 40px;
+        height: 100%;
+
+      }
+      .internado{
+        margin-bottom: 40px;
+      }
+    }
+  }
